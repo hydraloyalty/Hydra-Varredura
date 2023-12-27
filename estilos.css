@@ -9,6 +9,7 @@
     align-items: start;
     width: 100%;
     flex-direction: row;
+    background: #fff;
 }
 
 .config {
