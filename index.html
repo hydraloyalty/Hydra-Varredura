@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <title>Varredura de Expansão</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+    <div class="tela">
+        <div class="varredura-doc">
+            <div class="gov-header">
+                <img src="Anexos/GovBR.svg" alt="Logo - Gov.BR" class="logo-gov">
+                <div class="gov-menu">
+                    <div class="gov-menu-div"></div>
+                    <div class="gov-menu-texto">ACESSO À INFORMAÇÃO</div>
+                    <div class="gov-menu-div"></div>
+                    <div class="gov-menu-texto">PARTICIPE</div>
+                    <div class="gov-menu-div"></div>
+                    <div class="gov-menu-texto">LEGISLAÇÃO</div>
+                    <div class="gov-menu-div"></div>
+                    <div class="gov-menu-texto">ÓRGÃOS DO GOVERNO</div>
+                </div>
+            </div>
+            <div class="bacen-menu">
+                <div class="acessibilidade">
+                            <div class="acess-option">ACESSIBILIDADE</div>
+                            <div class="acess-option">ALTO CONTRASTE</div>
+                            <div class="acess-option"><i>ENGLISH</i></div>
+                        </div>
+                <div class="menu-padding">
+                    <div class="padding-area-left"></div>
+                </div>
+                <div class="menu-left">
+                    <div class="padding-area-left">
+                        <div class="padding-text-left">Acesso à<br>informação</div>
+                        <div class="padding-text-left">Política<br>monetária</div>
+                        <div class="padding-text-left">Estabilidade<br>financeira</div>
+                    </div>
+                </div>
+                <div class="center-left"></div>
+                <div class="menu-center">
+                    <div class="center">
+                        <img src="Anexos/BACEN.svg" alt="Logo - BACEN" class="logo-bacen">
+                        <img src="Anexos/curva.jpg" alt="" class="curva">
+                        <div class="center-space"></div>
+                    </div>
+                </div>
+                <div class="center-right"></div>
+                <div class="menu-right">
+                    <div class="padding-area-right">
+                        <div class="padding-text-right">Estatísticas</div>
+                        <div class="padding-text-right">Cédulas e<br>moedas</div>
+                        <div class="padding-text-right">Publicações e<br>pesquisa</div>
+                        <img src="Anexos/search.svg" alt="Pesquisar">
+                    </div>
+                </div>
+                <div class="menu-padding">
+                    <div class="padding-area-right"></div>
+                </div>
+            </div>
+            <div class="titulo-servicos">Serviços</div>
+            <div class="doc-area">
+                <div class="doc-menu">
+                    <div class="menu-option">
+                        <div class="cut">
+                            <img src="Anexos/CUT.svg" alt="Cut" class="cut-inativo-svg">
+                            <div class="cut-inativo"></div>
+                        </div>
+                        <div class="menu-notext-area">
+                            <div class="menu-notext">Cidadão</div>
+                        </div>
+                    </div>
+                    <div class="menu-option">
+                        <div class="cut">
+                            <img src="Anexos/CUTselect.svg" alt="Cut" class="cut-ativo-svg">
+                            <div class="cut-ativo"></div>
+                        </div>
+                        <div class="menu-text-area">
+                            <img src="Anexos/feature_search.svg" class="menu-icon" alt="Varredura de Expansão">
+                            <div class="menu-text">Varredura<br>de Expansão</div>
+                        </div>
+                    </div>
+                    <div class="menu-option">
+                        <div class="cut">
+                            <img src="Anexos/CUT.svg" alt="Cut" class="cut-inativo-svg">
+                            <div class="cut-inativo"></div>
+                        </div>
+                        <div class="menu-notext-area">
+                            <div class="menu-notext">Análise de<br>Elegibilidade</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="paineis">
+                    <div class="painel1">
+                        <div class="painel1-divs">
+                            <div class="azul1"></div>
+                            <div class="branco"></div>
+                            <div class="azul2"></div>
+                        </div>
+                        <div class="painel1-area">
+                            <div class="campo-base">
+                                <div class="titulos">Nome do titular</div>
+                                <input type="text" placeholder="Nome Completo" class="campos">
+                            </div>
+                            <div class="paineis-div"></div>
+                            <div class="campo-split">
+                                <div class="campo-base">
+                                    <div class="titulos">CPF</div>
+                                    <input id="inputCPF" type="text" placeholder="000.000.000-00" class="campos">
+                                </div>
+                                <div class="campo-base" id="CNPJ">
+                                    <div class="titulos">CNPJ</div>
+                                    <input id="inputCNPJ" type="text" placeholder="00.000.000/0001-00" class="campos">
+                                </div>
+                            </div>
+                            <div class="paineis-div"></div>
+                            <div class="campo-base">
+                                <div class="titulos">Instituição bancária</div>
+                                <input type="text" placeholder="Banco" class="campos">
+                            </div>
+                            <div class="paineis-div"></div>
+                            <div class="campo-split">
+                                <div class="campo-base">
+                                    <div class="titulos">Agência</div>
+                                    <input id="agencia" type="text" placeholder="0000" class="campos">
+                                </div>
+                                <div class="campo-base">
+                                    <div class="titulos">Conta</div>
+                                    <input id="conta" type="text" placeholder="000000-1" class="campos">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="painel2">
+                        <div class="campo-base">
+                            <div class="titulos">Status da Varredura</div>
+                            <div class="concluida">CONCLUÍDA</div>
+                        </div>
+                        <div class="paineis-div"></div>
+                        <div class="campo-base">
+                            <div class="titulos">Modalidades de recebimento</div>
+                            <div class="campos">PIX, TED E DOC</div>
+                        </div>
+                        <div class="paineis-div"></div>
+                        <div class="campo-base">
+                            <div class="titulos">Capacidade permitida em conta</div>
+                            <div class="valor">
+                                <div class="valor-texto">R$</div>
+                                <div class="valor-texto" id="valor">000.000,00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="painel3">
+                        <div class="painel3-content">
+                            <div class="titulos">Escala de expansão</div>
+                            <img src="Anexos/GRÁFICO.svg" alt="Gráfico">
+                        </div>
+                    </div>
+                    <div class="cut">
+                        <div class="finalizador-fill"></div>
+                        <img src="Anexos/SIDE.svg" alt="Finalizador">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="config">
+            <div class="container-tipo">
+                <div class="config-head">Exibir CNPJ</div>
+                <div class="segmented-control">
+                    <input type="radio" id="sim" name="documento" value="sim" checked>
+                    <label for="sim">SIM</label>
+                    <input type="radio" id="nao" name="documento" value="nao">
+                    <label for="nao">NÃO</label>
+                </div>
+            </div>
+            <input id="inputLIMITE" type="text" placeholder="Limite" class="config-dados">
+            <button id="botao-imprimir">EXPORTAR</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

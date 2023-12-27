@@ -1,0 +1,546 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.tela {
+    display: flex;
+    align-items: start;
+    width: 100%;
+    flex-direction: row;
+}
+
+.config {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 260px;
+    border-left: solid 1px;
+    border-color: #808080;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.varredura-doc {
+    width: 1538px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gov-header {
+    background: #071D41;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0px;
+    width: 100%;
+}
+
+.gov-menu {
+    gap: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 194px;
+}
+
+.logo-gov {
+    margin-left: 194px;
+}
+
+.gov-menu-div {
+    background: rgba(151, 151, 151, 0.30);
+    height: 20px;
+    width: 1px;
+}
+
+.gov-menu-texto {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.17px;
+    color: white;
+}
+
+.bacen-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid #edd297;
+    position: relative;
+}
+
+.menu-padding {
+    width: 79px;
+    background: #fff;
+    gap: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.padding-area-left {
+    margin-top: 60px;
+    height: 60px;
+    min-height: 60px;
+    border-top: 1px solid #dcddde;
+    background: #F8F9FA;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.padding-area-right {
+    margin-top: 60px;
+    min-height: 60px;
+    height: 60px;
+    border-top: 1px solid #dcddde;
+    background: #F8F9FA;
+    display: flex;
+    align-items: center;
+    gap: 74px;
+}
+
+.padding-text-left {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.64px;
+    letter-spacing: 0.14px;
+    color: #005C7A;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.padding-text-right {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.64px;
+    letter-spacing: 0.14px;
+    color: #005C7A;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.menu-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-center {
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.center-space {
+    height: 24px;
+    background: #F8F9FA;
+}
+
+.logo-bacen {
+    height: 70px;
+    margin-top: 12px;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.curva {
+    margin-top: 59px;
+    display: flex;
+    width: 300px;
+}
+
+.center-left {
+    width: 125px;
+    margin-top: 60px;
+    min-height: 60px;
+    height: 60px;
+    border-top: 1px solid #dcddde;
+    background: #F8F9FA;
+}
+
+.center-right {
+    width: 73px;
+    margin-top: 60px;
+    min-height: 60px;
+    height: 60px;
+    border-top: 1px solid #dcddde;
+    background: #F8F9FA;
+}
+
+.acessibilidade {
+    position: absolute;
+    border-bottom: 1px dotted #025c75;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+    margin-left: 1128px;
+    height: 15px;
+}
+
+.acess-option {
+    font-family: 'Ubuntu';
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.11px;
+    color: #025C75;
+}
+
+.titulo-servicos {
+    margin: 50px 0px 20px;
+    color: #606060;
+    font-size: 23px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    line-height: 28.98px;
+    letter-spacing: 0.23px;
+    width: 1315px;
+}
+
+.doc-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.doc-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.menu-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-notext-area {
+    display: flex;
+    align-items: center;
+    background: #E7E9E9;
+    height: 47px;
+    border-top-right-radius: 8px;
+    border-top: 1px #C5C5C5 solid;
+    border-right: 1px #C5C5C5 solid;
+}
+
+.menu-notext {
+    color: #666666;
+    font-size: 13px;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    line-height: 14.95px;
+    text-align: left;
+    white-space: nowrap;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+.menu-text-area {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    height: 47px;
+    border-top-right-radius: 8px;
+    border-top: 1px #025C75 solid;
+    border-right: 1px #025C75 solid;
+    position: relative;
+}
+
+.menu-text {
+    color: #025C75;
+    font-size: 13px;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    line-height: 14.95px;
+    text-align: left;
+    white-space: nowrap;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.menu-icon {
+    display: flex;
+    position: absolute;
+    margin-left: -2px;
+}
+
+.paineis {
+    display: flex;
+    flex-direction: row;
+}
+
+.painel1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.painel1-divs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.azul1 {
+    width: 85px;
+    height: 1px;
+    background: #025C75;
+}
+
+.azul2 {
+    width: 209px;
+    height: 1px;
+    background: #025C75;
+}
+
+.branco {
+    width: 131px;
+    height: 1px;
+    background: #fff;
+}
+
+.painel1-area {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px #025C75 solid;
+    border-bottom: 1px #025C75 solid;
+    gap: 18px;
+    width: 388px;
+    height: 288px;
+    padding: 22px 18px;
+}
+
+.campo-base {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.titulos {
+    color: #025C75;
+    font-size: 15px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    width: auto;
+}
+
+.paineis-div {
+    width: auto;
+    height: 0px;
+    border-bottom: 1px #CCCCCC dotted;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.campos {
+    width: auto;
+    color: #1A1A1A;
+    font-size: 14px;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    white-space: nowrap;
+}
+
+.campo-split {
+    width: 388px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+}
+
+.painel2 {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px #025C75 solid;
+    border-bottom: 1px #025C75 solid;
+    gap: 18px;
+    width: 244px;
+    height: 288px;
+    padding: 22px 18px;
+    background: #EEEEEE;
+}
+
+.concluida {
+    color: #0F9D58;
+    font-size: 14px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.28px;
+    white-space: nowrap;
+}
+
+.valor {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 15px;
+    border: 1px #025C75 solid;
+    border-radius: 4px;
+    background: #fff;
+    gap: 5px;
+    align-items: center;
+}
+
+.valor-texto {
+    color: #1A1A1A;
+    font-size: 18px;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.painel3 {
+    display: flex;
+    align-items: center;
+    border-top: 1px #025C75 solid;
+    border-bottom: 1px #025C75 solid;
+    padding: 22px 0px;
+    background: #DDDDDD;
+    height: 288px;
+}
+
+.painel3-content {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finalizador-fill {
+    width: 60px;
+    height: 272px;
+    border-top: 1px #025C75 solid;
+    border-right: 1px #025C75 solid;
+    background: #DDDDDD;
+}
+
+.cut-inativo {
+    height: 29px;
+    width: 18px;
+    border-left: 1px #C5C5C5 solid;
+    background: #E7E9E9;
+}
+
+.cut-ativo {
+    height: 29px;
+    width: 18px;
+    border-left: 1px #025C75 solid;
+    background: #fff;
+}
+
+.container-tipo {
+    padding: 18px;
+    border: 1px solid #888888;
+    border-radius: 10px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.config-head {
+    font-family: 'Raleway';
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    font-weight: 700;
+}
+
+.segmented-control {
+    display: flex;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid #79747E;
+    max-width: 300px; /* Ajuste a largura máxima conforme necessário */
+    height: 40px;
+    align-content: center;
+}
+
+.segmented-control label {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: #1D1B20;
+    align-items: center;
+    justify-content: center;
+}
+
+.segmented-control input[type="radio"] {
+    display: none;
+}
+
+.segmented-control input[type="radio"]:checked + label {
+    background-color: #E8DEF8;
+    color: #1D192B;
+    font-weight: 700;
+}
+.config-dados {
+    background-color: #EDEDED;
+    border-radius: 6px;
+    border: 1px solid #ABABAB;
+    height: 30px;
+    font-weight: 500;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #333333;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+}
+
+#botao-imprimir {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Padding */
+    margin: 10px 0; /* Margem */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Cursor como ponteiro */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-weight: 600;
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+.ocultar-na-impressao {
+    display: none !important;
+}
